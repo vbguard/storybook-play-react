@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build-storybook": "build-storybook -c .storybook -o .out",
-    "deploy": "gh-pages -d .out -b share",
+    "deploy": "gh-pages -d .out -b master",
     "storybook": "start-storybook"
   },
   "dependencies": {
