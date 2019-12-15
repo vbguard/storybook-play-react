@@ -1,10 +1,12 @@
 {
-  "name": "play-react",
+  "name": "storybook-play-react",
   "version": "1.0.0",
+  "homepage": "https://vbguard.github.io/storybook-play-react",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
     "build-storybook": "build-storybook -c .storybook -o .out",
+    "deploy": "gh-pages -d .out -b share",
     "storybook": "start-storybook"
   },
   "dependencies": {
@@ -23,6 +25,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "^1.7.0",
+    "gh-pages": "^2.1.1",
     "prettier-eslint": "^9.0.1"
   }
 }
